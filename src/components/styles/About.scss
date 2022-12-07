@@ -1,0 +1,68 @@
+.carrer {
+    .learnMore {
+        text-decoration: none;
+        color: #B99BB6;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.8vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+        text-transform: uppercase;
+        border: 1px solid #B99BB6;
+        border-radius: 2vw;
+        padding: 1vw 2vw;
+        margin-left: 12vw;
+    }
+}
+
+section {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    img {
+        width: 35vw;
+    }
+    .text {
+        width: 45vw;
+        text-align: left;
+        span {
+            text-transform: uppercase;
+            text-align: center;
+            color: #B99BB6;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1vw;
+        }
+        p {
+            text-align: left;
+            font-family: 'Cormorant Garamond';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8vw;
+            color: #5F4D5D;
+        }
+        .carrerText {
+            margin-left: 12vw;
+        }
+    }
+}
+
+.Wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.line {
+    width: 80vw;
+    height: 0.1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    background-color: #D7B7D4;
+}
